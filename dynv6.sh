@@ -68,7 +68,7 @@ fi
 
 # send addresses to dynv6
 
-$bin "http://dynv6.com/api/update?hostname=$hostname&ipv6=$current&token=$token"
+$bin "https://dynv6.com/api/update?hostname=$hostname&ipv6=$current&token=$token"
 
 # save current address
 
